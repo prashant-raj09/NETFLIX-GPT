@@ -24,3 +24,16 @@ FireBase
     What do you want to use as your public directory? ---> build
     Configure as a single-page app (rewrite all urls to /index.html)?---> No
     Set up automatic builds and deploys with GitHub?---> No
+
+Tailwind
+  npm install -D tailwindcss
+  npx tailwindcss init
+
+      /** @type {import('tailwindcss').Config} */
+  module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
